@@ -1,0 +1,123 @@
+.initial {
+  background-image: url(/dist/images/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  .header {
+    display: flex;
+    align-items: center;
+    padding-top: 36px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 36px;
+    .header-wrapper {
+      display: flex;
+      align-items: center;
+      .brand-wrapper {
+        padding-left: 10px;
+        a {
+          text-decoration: none;
+          font-family: $font-martel;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 32px;
+          letter-spacing: 0.1px;
+          color: $dark-blue;
+          margin-right: 90px;
+        }
+      }
+      .header-options {
+        display: flex;
+        align-items: center;
+        ul {
+          display: flex;
+          padding: 4px 0 0;
+          margin: 0;
+          li {
+            list-style: none;
+            &:nth-child(odd) {
+              margin-right: 26px;
+            }
+            &:nth-child(2) {
+              margin-right: 25px;
+            }
+            a {
+              text-decoration: none;
+              font-family: $font-open;
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 24px;
+              letter-spacing: 0.2px;
+              color: $grey;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.initial-page {
+  position: relative;
+  padding: 80px 0 180px;
+  h1 {
+    font-family: $font-martel;
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 65px;
+    letter-spacing: 0.2px;
+    color: $dark-blue;
+    width: 509px;
+  }
+  p {
+    font-family: $font-montserrat;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: $grey;
+    width: 376px;
+    padding: 35px 0;
+  }
+  .legal-card-items {
+    display: flex;
+    position: absolute;
+    bottom: -30px;
+    .legal-card-item {
+      display: grid;
+      width: 328px;
+      background-color: $white;
+      box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+      padding: 37px 40px 35px;
+      &:nth-child(2) {
+        margin-right: 31px;
+        margin-left: 30px;
+      }
+      strong {
+        font-family: $font-martel;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.1px;
+        color: $dark-blue;
+        margin: 12px 0 10px;
+      }
+      p {
+        width: 199px;
+        font-family: $font-open;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: $grey;
+        padding: 0;
+        margin: 0;
+      }
+    }
+    .declaration-item {
+      background-color: #295C7A;
+      p,strong {
+        color: $white;
+      }
+    }
+  }
+}

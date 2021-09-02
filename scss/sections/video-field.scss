@@ -1,0 +1,122 @@
+.video-field {
+  text-align: center;
+  h2 {
+    font-family: $font-martel;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: $dark-blue;
+    padding-top: 100px;
+    margin: 0;
+  }
+  p {
+    font-family: $font-open;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: $grey;
+    padding: 15px 291px 100px;
+    margin: 0;
+  }
+  [class*="col-"] {
+    float: left;
+  }
+  .video-part {
+    img {
+      padding-bottom: 143px;
+    }
+  }
+  .video-field-text-part {
+    padding-left: 121px;
+    text-align: left;
+    h2 {
+      width: 321px;
+      font-family: $font-martel;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 50px;
+      letter-spacing: 0.2px;
+      color: $dark-blue;
+      padding-top: 29px;
+    }
+    p {
+      width: 306px;
+      font-family: $font-open;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.2px;
+      color: $grey;
+      padding: 10px 0 50px;
+    }
+    .video-field-icon-part {
+      // .first-icon-bar {
+      //   margin-bottom: 30px;
+      //   p {
+      //     font-family: $font-martel;
+      //     font-weight: bold;
+      //     font-size: 16px;
+      //     line-height: 24px;
+      //     letter-spacing: 0.1px;
+      //     color: $dark-blue;
+      //     padding: 0;
+      //   }
+      //   span {
+      //     font-family: $font-open;
+      //     font-weight: bold;
+      //     font-size: 14px;
+      //     line-height: 24px;
+      //     letter-spacing: 0.2px;
+      //     color: $grey;
+      //   }
+      // }
+      // .second-icon-bar {
+      //   p {
+      //     font-family: $font-martel;
+      //     font-weight: bold;
+      //     font-size: 16px;
+      //     line-height: 24px;
+      //     letter-spacing: 0.1px;
+      //     color: $dark-blue;
+      //     padding: 0;
+      //   }
+      //   span {
+      //     font-family: $font-open;
+      //     font-weight: bold;
+      //     font-size: 14px;
+      //     line-height: 24px;
+      //     letter-spacing: 0.2px;
+      //     color: $grey;
+      //   }
+      // }
+      // }
+      ul {
+        padding-left: 32px;
+        li {
+          text-align: left;
+          width: 273px;
+          &:nth-child(odd) {
+            list-style: url(/dist/icons/speed.svg);
+            font-family: $font-martel;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.1px;
+            color: $dark-blue;
+            padding-left: 20px;
+          }
+          &:nth-child(even) {
+            list-style: none;
+            font-family: $font-open;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            color: $grey;
+            padding-left: 20px;
+          }
+        }
+      }
+    }
+  }
+}

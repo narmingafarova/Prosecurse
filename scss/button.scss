@@ -1,0 +1,35 @@
+.initial {
+  .header {
+    .option {
+      border: 0;
+      padding: 9px 8px 0;
+      background-color: transparent;
+    }
+  }
+}
+
+.initial-buttons {
+  font-family: $font-open;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  border-radius: 37px;
+  padding: 10px 36px;
+}
+
+.initial-page {
+  button {
+    margin-bottom: 80px;
+  }
+  .primary-button {
+    color: #ffffff;
+    background-color: $brown;
+    border-color: transparent;
+    margin-right: 10px;
+  }
+  .secondary-button {
+    color: $brown;
+    border: 1px solid $brown;
+  }
+}

@@ -1,0 +1,54 @@
+.client-matters {
+  text-align: center;
+  padding: 114px 0 94px;
+  background-color: $soft-gray;
+  h2 {
+    font-family: $font-martel;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: $dark-blue;
+  }
+  p {
+    font-family: $font-open;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: $grey;
+    padding: 0 291px;
+    margin: 10px 0 50px;
+  }
+  .client-matters-cards {
+    display: flex;
+    justify-content: space-between;
+    .client-matters-cards-item {
+      width: 230px;
+      background-color: $white;
+      padding-bottom: 30px;
+      img {
+        padding: 30px 91px 10px;
+      }
+      h2 {
+        font-family: $font-martel;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 0.2px;
+        color: $dark-blue;
+        margin: 0;
+      }
+      span {
+        font-family: $font-martel;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: $grey;
+      }
+      &:not(:last-child) {
+        margin-right: 41px;
+      }
+    }
+  }
+}
