@@ -1,0 +1,16 @@
+@mixin section-h2-titles {
+    font-family: $font-martel;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: $dark-blue;
+}
+
+@mixin section-p-titles {
+    font-family: $font-open;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: $grey;
+}

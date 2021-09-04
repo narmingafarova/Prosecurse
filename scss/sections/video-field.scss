@@ -1,21 +1,13 @@
 .video-field {
+  height: 890px;
   text-align: center;
   h2 {
-    font-family: $font-martel;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 50px;
-    letter-spacing: 0.2px;
-    color: $dark-blue;
+    @include section-h2-titles;
     padding-top: 100px;
     margin: 0;
   }
   p {
-    font-family: $font-open;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-    color: $grey;
+    @include section-p-titles;
     padding: 15px 291px 100px;
     margin: 0;
   }
@@ -23,9 +15,9 @@
     float: left;
   }
   .video-part {
-    img {
+    // img {
       padding-bottom: 143px;
-    }
+    // }
   }
   .video-field-text-part {
     padding-left: 121px;

@@ -1,0 +1,63 @@
+.about-part {
+  background-image: $blue-gradient;
+  .footer-list-part {
+    display: flex;
+    padding: 50px 0 52px;
+    .footer-list-item {
+      strong {
+        font-family: $font-martel;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: $white;
+      }
+      ul {
+        padding: 20px 0 0;
+        margin: 0;
+        li {
+          list-style: none;
+          a {
+            text-decoration: none;
+            font-family: $font-open;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            color: $white;
+          }
+          &:not(:last-child) {
+            padding-bottom: 10px;
+          }
+        }
+      }
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+      &:nth-child(odd) {
+        width: 148px;
+      }
+      &:nth-child(even) {
+        width: 152px;
+      }
+      &:nth-child(5) {
+        width: 321px;
+      }
+    }
+    .get-in-touch {
+      ul {
+        li {
+          &:first-child::before {
+            content: url(/dist/icons/blue-phone.svg);
+          }
+          &:nth-child(2)::before {
+            content: url(/dist/icons/blue-map.svg);
+          }
+          &:last-child::before {
+            content: url(/dist/icons/blue-send.svg);
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.footer {
+  background-color: $soft-gray;
+  padding: 25px 0;
+  .footer-items {
+    display: flex;
+    justify-content: space-between;
+    p {
+      font-family: $font-open;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      color: $grey;
+    }
+    .footer-socials {
+      ul {
+        display: flex;
+        li {
+          list-style: none;
+          &:not(:last-child) {
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  }
+}

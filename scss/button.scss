@@ -14,13 +14,13 @@
   font-size: 14px;
   line-height: 28px;
   letter-spacing: 0.2px;
-  border-radius: 37px;
-  padding: 10px 36px;
 }
 
 .initial-page {
   button {
     margin-bottom: 80px;
+    padding: 10px 36px;
+    border-radius: 37px;
   }
   .primary-button {
     color: #ffffff;
@@ -31,5 +31,58 @@
   .secondary-button {
     color: $brown;
     border: 1px solid $brown;
+  }
+}
+
+.brands-part {
+  .subscribe-blank {
+    button {
+      position: absolute;
+      padding: 14px 22.5px;
+      background: $golden;
+      border: 1px solid #e6e6e6;
+      border-radius: 0px 5px 5px 0px;
+      font-family: $font-montserrat;
+      font-size: 14px;
+      line-height: 28px;
+      letter-spacing: 0.2px;
+      color: $white;
+    }
+  }
+}
+
+.support-part {
+  .support-cards {
+    .support-cards-item {
+      .submit-request-button {
+        font-family: $font-open;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        color: $golden;
+        border: 1px solid $golden;
+        border-radius: 5px;
+        padding: 10px 20px;
+        width: 154px;
+        margin: 15px 87px 80px;
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+.request-part {
+  .request-bar {
+    .request-button-bar {
+      .contact-button {
+        background-color: $brown;
+        color: $white;
+        border-radius: 5px;
+        padding: 15px 40px;
+        margin: 9px 39px;
+        border: 0;
+      }
+    }
   }
 }

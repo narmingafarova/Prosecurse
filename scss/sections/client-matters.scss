@@ -3,19 +3,10 @@
   padding: 114px 0 94px;
   background-color: $soft-gray;
   h2 {
-    font-family: $font-martel;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 50px;
-    letter-spacing: 0.2px;
-    color: $dark-blue;
+    @include section-h2-titles;
   }
   p {
-    font-family: $font-open;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-    color: $grey;
+    @include section-p-titles;
     padding: 0 291px;
     margin: 10px 0 50px;
   }
