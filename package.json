@@ -2,8 +2,9 @@
   "name": "prosecurse",
   "dependencies": {
     "bootstrap": "^5.1.0",
-    "sass": "^1.38.2",
-    "scripts": {
+    "sass": "^1.38.2"
+  },
+   "scripts": {
       "dev": "react-scripts start",
       "start": "serve -s build",
       "build": "react-scripts build",
@@ -11,5 +12,4 @@
       "eject": "react-scripts eject",
       "heroku-postbuild": "npm run build"
 }
-  }
 }
